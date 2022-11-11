@@ -199,6 +199,7 @@ endmodule
 ![6](https://user-images.githubusercontent.com/94588708/201327078-2f1a295c-e5a3-4555-a4af-738efafe1003.png)
 
 ### PROGRAM-4:
+~~~
 T FLIP-FLOP:
 
 module ex5(T,Clk,Q,Qbar);
@@ -210,6 +211,7 @@ nand(Y,T,Clk,Q);
 nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
+~~~
 
 ### RTL LOGIC FOR FLIPFLOPS
 
